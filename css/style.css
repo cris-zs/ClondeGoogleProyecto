@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+.header{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.profile{
+    background-size: 32px 32px;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    position: relative;
+
+}
+.Google-Apps{
+    background-size: 32px 32px;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    position: relative;
+    
+}
+.Header-link{
+    padding: 10px;
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+.Logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+}
+.Search-bar{
+    padding-top: 25px;
+    text-align: center;
+}
+.Buttons{
+    text-align: center;
+}
+.Button-style{
+    background-color: #f8f9fa;
+    border-style: solid;
+    border-color: #f8f9fa;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 36px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    cursor: pointer;
+}
+.Middle{
+    background-color: white;
+    height: 350px;
+}
+.Country{
+    background-color: #F2F2F2;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #70757a;
+
+}
+.Footer-Links{
+    background-color: #F2F2F2;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+
